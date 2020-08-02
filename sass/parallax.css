@@ -1,0 +1,64 @@
+/*--parallax bits--*/
+
+/* cross */
+#parallax-bg3 {
+    z-index: 3;
+    position: fixed;
+    left: 50%; /* align left edge with center of viewport */
+    top: 0px;
+    width: 500px;
+    margin-left: -250px; /* move left by half element's width */
+}
+
+/* cross-x */
+#parallax-bg2 {
+    z-index: 2;
+    position: fixed;
+    left: 50%; /* align left edge with center of viewport */
+    top: 0;
+    width: 500px;
+    margin-left: -250px; /* move left by half element's width */
+}
+
+/* circle */
+#parallax-bg1 {
+    z-index: 1;
+    position: fixed;
+    left: 50%; /* align left edge with center of viewport */
+    top: 0;
+    width: 500px;
+    margin-left: -250px; /* move left by half element's width */
+}
+
+#bg3-1 {
+    position: absolute;
+    top: 3000px;
+    left: -100px;
+}
+
+#bg2-1 {
+    position: absolute;
+    top: 3000px;
+    left: 450px;
+}
+
+#bg1-1 {
+    position: absolute;
+    top: 4000px;
+    left: 650px;
+}
+
+<script>
+
+            $(window).bind('scroll',function(e){
+    parallaxScroll();
+});
+
+function parallaxScroll(){
+    var scrolled = $(window).scrollTop();
+    $('#parallax-bg1').css('top',(0-(scrolled*.3))+'px');
+    $('#parallax-bg2').css('top',(0-(scrolled*.25))+'px');
+    $('#parallax-bg3').css('top',(0-(scrolled*.2))+'px');
+}
+
+        </script>

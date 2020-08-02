@@ -1,0 +1,752 @@
+/*---start of the cascading style sheet (css), so named because the styles overide the previous ones as they are further down the page (cascading down the page)---*/
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle;
+  border: 0; }
+
+button {
+  background-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none; }
+
+@font-face {
+  font-family: 'SemplicitaPro-Bold';
+  src: url("fonts/2B3825_0_0.eot");
+  src: url("fonts/2B3825_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/2B3825_0_0.woff") format("woff"), url("fonts/2B3825_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OriginalGaramondBT-Italic';
+  src: url("fonts/2D5ACA_0_0.eot");
+  src: url("fonts/2D5ACA_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/2D5ACA_0_0.woff2") format("woff2"), url("fonts/2D5ACA_0_0.woff") format("woff"), url("fonts/2D5ACA_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'SocialNetworkingIcons-Unboxed';
+  src: url("fonts/2B28F9_0_0.eot");
+  src: url("fonts/2B28F9_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/2B28F9_0_0.woff") format("woff"), url("fonts/2B28F9_0_0.ttf") format("truetype"); }
+h1 {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  line-height: 75px;
+  text-align: center; }
+
+.what-text h1 {
+  color: #2c2b2b;
+  margin-top: 125px; }
+
+.why {
+  font-size: 140px;
+  color: #ffffff;
+  line-height: 70px; }
+
+.work-here {
+  color: #ffffff;
+  padding: 0px 0px 275px 250px; }
+
+.because {
+  padding-left: 10px;
+  color: #ffffff; }
+
+h2 {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 22px;
+  line-height: 53px;
+  text-align: center; }
+
+.apply h2 {
+  width: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0 auto; }
+
+h3 {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 10px;
+  float: left;
+  width: 250px; }
+
+h4 {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  line-height: 18px;
+  text-align: center; }
+
+.apply h4 {
+  font-size: 28px;
+  padding-top: 30px;
+  padding-bottom: 0px; }
+
+h5 {
+  font-family: 'SemplicitaPro-Bold';
+  font-size: 26px;
+  letter-spacing: 14px;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding-left: 10px; }
+
+p {
+  font-family: 'Gill Sans';
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 20px; }
+
+.why-text p {
+  color: #ffffff; }
+
+.what-text p {
+  color: #2c2b2b; }
+
+.front p {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #ffffff;
+  width: 160px;
+  padding-top: 115px;
+  margin: 0 auto; }
+
+.back p {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #ffffff;
+  width: 160px;
+  padding-top: 200px;
+  margin: 0 auto; }
+
+.back a:hover {
+  color: #ffffff; }
+
+.front {
+  font-family: 'OriginalGaramondBT-Italic';
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  background-image: url(../img/portfolio-disk.jpg); }
+
+.back {
+  font-family: 'OriginalGaramondBT-Italic';
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  background-image: url(../img/portfolio-disk-smilie.jpg); }
+
+.group3 {
+  color: #ffffff;
+  text-decoration: none; }
+
+.subtitle p {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 175px; }
+
+footer p {
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px; }
+
+.button p {
+  color: #000000;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  width: 550px;
+  text-align: center;
+  margin: 0 auto; }
+
+.curly-bracket {
+  font-family: 'OriginalGaramondBT-Italic';
+  font-size: 165px;
+  color: #ffffff;
+  height: 160px;
+  margin-bottom: 0px;
+  padding-top: 79px;
+  float: left; }
+
+.apply-heading {
+  padding-top: 85px; }
+
+a:hover {
+  color: #f98f05; }
+
+.button p {
+  margin-top: 13px; }
+
+.button a {
+  font-family: 'Gill Sans';
+  font-size: 10px;
+  font-weight: 100;
+  color: #ffffff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-align: center; }
+
+.button a:hover {
+  color: #f98f05; }
+
+nav {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  z-index: 999;
+  background-color: #000000; }
+  nav a {
+    font-family: 'SocialNetworkingIcons-Unboxed';
+    font-size: 75px;
+    color: #ffffff;
+    letter-spacing: -20px;
+    text-decoration: none; }
+  nav ul {
+    width: 867px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center; }
+  nav li {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block; }
+
+.social-footer {
+  font-family: 'SocialNetworkingIcons-Unboxed';
+  font-size: 75px;
+  letter-spacing: -20px;
+  height: 75px;
+  padding-top: 75px; }
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  color: #2c2b2b; }
+
+.logo {
+  width: 450px;
+  height: 470px;
+  padding-top: 175px;
+  margin: 0 auto; }
+
+.container {
+  text-align: center;
+  width: 1200px;
+  height: 3035px;
+  margin: 0 auto; }
+
+.intro {
+  width: 725px;
+  height: 3035px;
+  margin: 0 auto; }
+
+.subhead {
+  width: 428px;
+  height: 165px;
+  margin: 0 auto; }
+
+.intro-question {
+  width: 450px;
+  height: 300px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin: 0 auto; }
+
+.center {
+  margin: 0 auto; }
+
+.building {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/newcastle-college-left.jpg);
+  background-repeat: no-repeat; }
+
+.work-here {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/work-here.jpg);
+  background-repeat: no-repeat; }
+
+.headone-width {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 95px; }
+
+.students-container {
+  width: 1200px;
+  height: 1133px;
+  margin: 0 auto; }
+
+.employers-container {
+  width: 1200px;
+  height: 860px;
+  margin: 0 auto; }
+
+.students {
+  width: 340px;
+  margin-left: 30px;
+  margin-right: 30px;
+  float: left; }
+
+.student-portrait {
+  margin-top: 22px;
+  margin-left: 58px; }
+
+/*--curtain.css--*/
+html {
+  height: 100%;
+  overflow-x: hidden; }
+
+.curtains {
+  width: 100%;
+  z-index: 1;
+  position: relative; }
+
+.curtains > li {
+  -webkit-transform: translateZ(0);
+  background: white;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  z-index: 1; }
+
+.curtains > li.hidden {
+  display: none; }
+
+.curtains > li:first-child {
+  z-index: 2;
+  background-image: url(../img/digi-sky-wideboy.jpg);
+  background-repeat: no-repeat; }
+
+.curtains > li.shadow {
+  box-shadow: 0 1px 14px 3px #333333; }
+
+/*---------------------------------end curtain.css-----------------------------------*/
+/*-------------------------------slider hover stuff-------------------------------*/
+figure {
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden; }
+
+figure img {
+  display: block;
+  padding-top: 28px; }
+
+figcaption {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px 30px 0px 0px;
+  opacity: 0;
+  bottom: 0;
+  left: -30%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+
+.world-class {
+  padding: 0px 0px 225px 300px; }
+
+.offices {
+  padding: 0px 0px 225px 150px; }
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 0; }
+
+.cap-bot figcaption {
+  left: -30%;
+  bottom: 0; }
+
+.cap-bot:hover figcaption {
+  bottom: 0; }
+
+.cap-right figcaption {
+  right: -30%;
+  bottom: 0; }
+
+.cap-right:hover figcaption {
+  bottom: 0; }
+
+/*-------------------------------------end slider hover stuff---------------------------------------*/
+.portfolio-disk {
+  margin: 0 auto;
+  position: relative;
+  min-height: 1px;
+  margin-top: 195px; }
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto; }
+
+.apply {
+  width: 100%;
+  height: 1235px;
+  background-color: #a1a6ad;
+  margin-top: 150px; }
+
+.apply-intro {
+  width: 725px;
+  margin: 0 auto; }
+
+.button {
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.credits {
+  height: 200px;
+  padding-top: 200px; }
+
+footer {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #000000; }
+
+/*------------------------------------------------------lightbox-----------------------------------------------*/
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden; }
+
+#cboxWrapper {
+  max-width: none; }
+
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left; }
+
+#cboxContent {
+  position: relative; }
+
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; }
+
+#cboxTitle {
+  margin: 0; }
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer; }
+
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic; }
+
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; }
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+  background: #fff; }
+
+#colorbox {
+  outline: 0; }
+
+#cboxTopLeft {
+  width: 25px;
+  height: 25px;
+  background: url(images/border1.png) no-repeat 0 0; }
+
+#cboxTopCenter {
+  height: 25px;
+  background: url(images/border1.png) repeat-x 0 -50px; }
+
+#cboxTopRight {
+  width: 25px;
+  height: 25px;
+  background: url(images/border1.png) no-repeat -25px 0; }
+
+#cboxBottomLeft {
+  width: 25px;
+  height: 25px;
+  background: url(images/border1.png) no-repeat 0 -25px; }
+
+#cboxBottomCenter {
+  height: 25px;
+  background: url(images/border1.png) repeat-x 0 -75px; }
+
+#cboxBottomRight {
+  width: 25px;
+  height: 25px;
+  background: url(images/border1.png) no-repeat -25px -25px; }
+
+#cboxMiddleLeft {
+  width: 25px;
+  background: url(images/border2.png) repeat-y 0 0; }
+
+#cboxMiddleRight {
+  width: 25px;
+  background: url(images/border2.png) repeat-y -25px 0; }
+
+#cboxContent {
+  background: #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 11px 11px rgba(158, 156, 158, 0.39);
+  -moz-box-shadow: 0px 0px 11px 11px rgba(158, 156, 158, 0.39);
+  box-shadow: 0px 0px 11px 11px rgba(158, 156, 158, 0.39); }
+
+.cboxIframe {
+  background: #fff; }
+
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc; }
+
+#cboxLoadedContent {
+  margin-bottom: 20px; }
+
+#cboxTitle {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #999; }
+
+#cboxCurrent {
+  font-family: 'Gill Sans';
+  font-weight: 100;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #bebebe; }
+
+#cboxLoadingOverlay {
+  background: #fff url(images/loading.gif) no-repeat 5px 5px; }
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  width: auto;
+  background: none; }
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
+  outline: 0; }
+
+#cboxSlideshow {
+  position: absolute;
+  bottom: 0px;
+  right: 42px;
+  color: #444; }
+
+#cboxPrevious {
+  position: absolute;
+  font-size: 25px;
+  bottom: 275px;
+  left: 15px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #dbdbdb;
+  width: 60px;
+  height: 60px; }
+
+#cboxNext {
+  position: absolute;
+  font-size: 25px;
+  bottom: 275px;
+  right: 15px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #dbdbdb;
+  width: 60px;
+  height: 60px; }
+
+#cboxClose {
+  position: absolute;
+  font-size: 40px;
+  bottom: 15px;
+  right: 15px;
+  padding-bottom: 3px;
+  display: block;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #dbdbdb;
+  width: 60px;
+  height: 60px; }
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,286 @@
+@font-face {font-family: 'SemplicitaPro-Bold';src: url('fonts/2B3825_0_0.eot');src: url('fonts/2B3825_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2B3825_0_0.woff') format('woff'),url('fonts/2B3825_0_0.ttf') format('truetype');}
+
+@font-face {font-family: 'OriginalGaramondBT-Italic';src: url('fonts/2D5ACA_0_0.eot');src: url('fonts/2D5ACA_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2D5ACA_0_0.woff2') format('woff2'),url('fonts/2D5ACA_0_0.woff') format('woff'),url('fonts/2D5ACA_0_0.ttf') format('truetype');}
+
+@font-face {font-family: 'SocialNetworkingIcons-Unboxed';src: url('fonts/2B28F9_0_0.eot');src: url('fonts/2B28F9_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2B28F9_0_0.woff') format('woff'),url('fonts/2B28F9_0_0.ttf') format('truetype');}
+
+$darkBackgroundText: #ffffff;
+$bodyText: #2c2b2b;
+$hoverText: #f98f05;
+
+
+
+h1 {
+	font:{
+		family: 'OriginalGaramondBT-Italic';
+		size: 50px;
+		weight: 300;
+	}
+
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	line-height: 75px;
+	text-align: center;
+}
+
+.what-text h1 {
+	color: $bodyText;
+	margin-top: 125px;
+	}
+
+.why {
+	font-size: 140px;
+	color: $darkBackgroundText;
+	line-height: 70px;
+	}
+
+.work-here {
+	color: $darkBackgroundText;
+	padding: 0px 0px 275px 250px;
+}
+
+.because {
+	padding-left: 10px;
+	color: $darkBackgroundText;
+}
+
+
+h2 {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	margin-top: 22px;
+	line-height: 53px;
+	text-align: center;
+}
+
+.apply h2 {
+	width: 800px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 10px;
+	line-height: 40px;
+	color: $darkBackgroundText;
+	text-align: center;
+	padding-left: 10px;
+	float: left;
+	width: 250px;
+}
+
+
+h4 {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.apply h4 {
+	font-size: 28px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+h5 {
+	font-family: 'SemplicitaPro-Bold';
+	font-size: 26px;
+	letter-spacing: 14px;
+	color: $darkBackgroundText;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+p {
+	font-family: 'Gill Sans';
+	font-weight: 100;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.why-text p {
+	color: $darkBackgroundText;
+}
+
+.what-text p {
+	color: $bodyText;
+}
+
+.front p {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 20px;
+	line-height: 35px;
+	letter-spacing: 4px;
+	text-align: center;
+	color: $darkBackgroundText;
+	width: 160px;
+	padding-top: 115px;
+	margin: 0 auto;
+
+}
+
+.back p {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 20px;
+	line-height: 35px;
+	letter-spacing: 4px;
+	text-align: center;
+	color: $darkBackgroundText;
+	width: 160px;
+	padding-top: 200px;
+	margin: 0 auto;
+
+}
+
+.back a:hover {
+	color: $darkBackgroundText;
+}
+
+.front {
+	font-family: 'OriginalGaramondBT-Italic';
+	text-align: center;
+	color: $darkBackgroundText;
+	font-size: 30px;
+	background-image: url(../img/portfolio-disk.jpg);
+}
+
+.back {
+	font-family: 'OriginalGaramondBT-Italic';
+	text-align: center;
+	color: $darkBackgroundText;
+	font-size: 30px;
+	background-image: url(../img/portfolio-disk-smilie.jpg);
+}
+
+.group3 {
+	color: $darkBackgroundText;
+	text-decoration: none;
+}
+
+.subtitle p {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 10px;
+	line-height: 40px;
+	color: $darkBackgroundText;
+	text-align: center;
+	margin-bottom: 175px;
+}
+
+footer p {
+	color: $darkBackgroundText;
+	font-size: 11px;
+	line-height: 17px;
+	letter-spacing: 2px;
+	width: 550px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.button p {
+	color: #000000;
+	font-size: 11px;
+	line-height: 17px;
+	letter-spacing: 2px;
+	width: 550px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.curly-bracket {
+	font-family: 'OriginalGaramondBT-Italic';
+	font-size: 165px;
+	color: $darkBackgroundText;
+	height: 160px;
+	margin-bottom: 0px;
+	padding-top: 79px;
+	float: left;
+}
+
+.apply-heading {
+	padding-top: 85px;
+}
+
+a:hover {
+		color: $hoverText;
+	}
+
+.button p {
+	margin-top: 13px;
+}
+
+.button a {
+	font-family: 'Gill Sans';
+	font-size: 10px;
+	font-weight: 100;
+	color: $darkBackgroundText;
+	letter-spacing: 4px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button a:hover {
+		color: $hoverText;
+	}
+
+
+nav {
+
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	z-index: 999;
+	background-color: #000000;
+
+	a {
+	font-family: 'SocialNetworkingIcons-Unboxed';
+	font-size: 75px;
+	color: $darkBackgroundText;
+	letter-spacing: -20px;
+	text-decoration: none;
+
+	}
+
+	ul {
+		width: 867px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+
+	li {
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-right: 15px;
+		display: inline-block;
+	}
+}
+
+.social-footer {
+	font-family: 'SocialNetworkingIcons-Unboxed';
+	font-size: 75px;
+	letter-spacing: -20px;
+	height: 75px;
+	padding-top: 75px;
+}
